@@ -1,6 +1,7 @@
-let marks = prompt("enter your grade")
-function getgrade (marks){
-    if (marks >= 0 && marks <= 100){
+function generategrade(){
+let marks =parseFloat(prompt("enter your grade:"))
+    if (marks < 0 || marks > 100)
+    return 'invalid';{
         if (marks >79 ){
             return 'A';
         
@@ -14,5 +15,7 @@ function getgrade (marks){
         return 'E'
       }
     }
-}
-generategrade()
+  }
+
+let grade = generategrade();
+console.log("grade");
