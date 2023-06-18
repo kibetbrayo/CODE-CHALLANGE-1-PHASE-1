@@ -1,5 +1,6 @@
+//calculating the students grade
 function generategrade(){
-let marks =parseFloat(prompt("enter your grade:"))
+let marks =parseFloat(prompt("enter your grade:"))//declaring the variable
     if (marks < 0 || marks > 100)
     return 'invalid';{
         if (marks >79 ){
@@ -17,5 +18,5 @@ let marks =parseFloat(prompt("enter your grade:"))
     }
   }
 
-let grade = generategrade();
+let grade = generategrade();//call function to compute the grade
 console.log("grade");

@@ -1,3 +1,4 @@
+//calculating the speed of a car
 function checkspeed() {
     const speed = parseFloat(prompt("Enter the car speed:"));
   
@@ -14,5 +15,5 @@ function checkspeed() {
     }
   }
   
-  console.log(checkspeed());
+  console.log(checkspeed()); //call function
   
